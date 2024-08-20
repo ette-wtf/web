@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #ffccff; */
+    font-family: 'Arial', sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    font-family: monospace;
+    color: #7864c6;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 120px;
+}
+
+.sidebar {
+    width: 200px;
+}
+
+.welcome {
+    background-color: #7864c6;
+    border: 2px solid pink;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add margin-bottom to match other sections */
+}
+
+.welcome h1 {
+    font-size: 2em;
+    color: #ff66cc;
+}
+
+.welcome p {
+    color: #000000;
+}
+
+.sidebar .navigation {
+    background-color: #63549e;
+    border: 2px solid pink;
+    padding: 15px;
+    margin-bottom: 20px;
+    z-index: 1; /* Stay on top */
+    top: 1; /* Stay at the top */
+    padding-top: 20px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    
+}
+
+.ascii {
+    font-family: monospace;
+    line-height: 1.2;
+    font-size: 4px;
+    margin-bottom: 20px;
+    z-index: 1; /* Stay on top */
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.2em;
+    color: #ff66cc;
+    margin-bottom: 10px;
+}
+
+.navigation ul,
+.stats p {
+    font-size: 1em;
+    color: #333;
+}
+
+.webrings {
+    margin-top: 40px;
+}
+
+.webrings img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.to-do-list, .credits {
+    background-color: #63549e;
+    border: 2px solid pink;
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%;
+}
+
+.to-do-list h2, .credits h2 {
+    font-size: 1.2em;
+    color: #ff66cc;
+}
+
+.to-do-list ul {
+    list-style-type: none;
+}
+
+.to-do-list li, .credits p {
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+inline {
+    background-color: #131516;
+}
+  
+  :root {
+      --darkreader-neutral-background: #131516;
+      --darkreader-neutral-text: #d8d4cf;
+      --darkreader-selection-background: #004daa;
+      --darkreader-selection-text: #e8e6e3;
+   }
